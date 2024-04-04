@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Account Login </title>
+            <link rel = "stylesheet" href = "personal_web_page.css" />
+        </head>
+        <script src = "personal_web_page.js"></script>
+        <body>
+            <div id = "log">
+                <div id = "first-row">
+                    <a href = "personal_web_page.html" id = "logo"> <h1> COLORS X STUDIO </h1></a>
+                    <header class = "hd"> Login </header>
+                </div>
+
+                <div id = "Login"> 
+                    <form>
+                        <label for = "USERNAME">Username</label><br>
+                        <input placeholder = "USERNAME" type="text" id ="usern" value = "" required>
+                        <br>
+                        <label for = "PSWRD">Password</label>
+                        <br>
+                        <input placeholder = "PASSWORD" type="text" id = "pswrd"  value = "" required>
+                        <br>
+                        <button onclick = "valLog()" id = "btton" class="button-2" style="vertical-align:middle"><span> Login </span></button>
+                        <br>
+                        <div class = "check">
+                        <input  type="checkbox" checked="checked" class="Check" required> Remember me
+                        </div>
+                        <p> <a href = "pwb_forgot_password.html"> Forgot Password?</a> </p>
+                        <p> <b>Dont</b> have an Account? <a href = "pwb_sign_up.html"> Sign Up </a></p>
+                    </form>
+                </div>  
+            </div>
+        </body>
+    </html>
